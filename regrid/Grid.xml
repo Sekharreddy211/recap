@@ -1,0 +1,15 @@
+<suite   name="gridsuit " parallel="tests">
+	<test  name="AdminloohinTesrcase on chrome" >
+		<parameter name="browser"   value="chrome"></parameter>
+		<classes>
+			<class name="newgrid.Adminlogin"></class>
+		</classes>
+	</test>
+	<test name="AdminloginTestcase on firefox">
+		<parameter name="browser"  value ="firefox">
+			<classes>
+				<class name="newgrid.Adminlogin"></class>
+			</classes>
+		</parameter>
+	</test>
+</suite>
